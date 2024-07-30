@@ -1,0 +1,13 @@
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px; margin-left: 20px;
+}
