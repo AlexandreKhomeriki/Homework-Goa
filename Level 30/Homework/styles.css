@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.color .red {
+    color: red;
+}
+
+.color .blue {
+    color: blue;
+}
+
+.shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
