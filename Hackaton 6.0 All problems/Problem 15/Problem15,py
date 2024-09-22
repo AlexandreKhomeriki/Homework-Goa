@@ -1,0 +1,5 @@
+numbers = [10,30,60]
+
+numbers = 10*30*60
+
+print(numbers // 3)
