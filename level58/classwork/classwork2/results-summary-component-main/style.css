@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Hanken Grotesk", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 800px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+
+}
+.blue-div{
+    text-align: center;
+     
+    background-color: rgb(96, 64, 253);
+    width:250px;
+    height:360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.title{
+    color:white;
+    padding-bottom: 25px;
+
+}
+
+.blue-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    background-color: rgb(75, 36, 205);
+    margin-bottom: 30px;
+}
+
+.blue-circle h1{
+    color: white;
+}
+.blue-circle p{
+    font-size: 12px;
+    color: rgb(186, 184, 184);
+}
+
+.great{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.pp{
+    color: rgb(186, 184, 184);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+
+.white-div{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 5px 20px rgb(174, 173, 230);
+}
+h2{
+    padding-bottom: 20px;
+}
+
+.cont{
+    padding: 40px;
+    padding-top: 10px;
+}
+.red{
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height:40px;
+    background-color: rgb(255,246,245);
+}
+.yellow{
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height:40px;
+    background-color: rgb(255,251,242);
+}
+.green{
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height:40px;
+    background-color: rgb(242,251,250);
+}
+.blue{
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height:40px;
+    background-color: rgb(243,243,253);
+}
+
+
+button{
+    width: 150px;
+    height: 35px;
+    background-color:rgb(61,49,237);
+    margin-bottom: 20px;
+    border:none;
+    color: white;
+    border-radius: 20px;
+}

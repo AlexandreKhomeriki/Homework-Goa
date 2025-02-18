@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.photo{
+    border:1px solid rgb(66, 64, 64);
+    position: relative;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/2022-mercedes-benz-s500-4matic-123-1642184026.jpg?crop=0.458xw:0.387xh;0.316xw,0.418xh&resize=2048:);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+
+}
+
+button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border:none;
+    padding:5px;
+    background-color:rgb(202,63,39 );
+    color: white;
+}
+
+
+.text{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    border:1px solid rgb(66, 64, 64);
+}
+.button{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    align-items: center;
+}
+.gg1{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    padding-top: 10px;
+    color: grey;
+}

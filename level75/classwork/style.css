@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 1s;
+   
+    animation:animation1 4s infinite;
+
+    
+}
+
+
+@keyframes animation1 {
+    0%{
+        transform: rotate(10deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+
+.div2{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+}
+ 
